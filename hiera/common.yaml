@@ -1,0 +1,4 @@
+---
+apache::serveradmin: 'joe@example.com'
+my_message: 'Hello, Hiera'
+
