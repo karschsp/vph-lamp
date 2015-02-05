@@ -2,6 +2,7 @@ include apache
 include drush
 include firewall
 include gcc
+include mongodb
 
 package { "lynx":
   ensure => present
