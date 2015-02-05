@@ -19,7 +19,7 @@ FORGE
       puppetlabs-stdlib (>= 3.2.0)
     puppetlabs-stdlib (4.5.1)
     puppetlabs-vcsrepo (1.2.0)
-    zivtech-drush (0.0.1)
+    zivtech-drush (0.0.2)
       nodes-php (>= 0.8.0)
       puppetlabs-stdlib (>= 1.0.0)
       puppetlabs-vcsrepo (>= 0)
