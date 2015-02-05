@@ -1,15 +1,15 @@
 # VPH-LAMP
 
-Stand up a Linux Apache MySQL PHP environment using Vagrant, Puppet and Hiera.
+Stands up a Linux Apache MySQL PHP environment using Vagrant, Puppet and Hiera.
 
 ## Requirements
 
-* vagrant
-* VirtualBox
-* librarian-puppet (https://github.com/rodjek/librarian-puppet)
+* [Vagrant](http://vagrantup.com)
+* [VirtualBox](http://virtualbox.org)
+* [librarian-puppet](https://github.com/rodjek/librarian-puppet)
 
 ## Installation
 
-* Clone this repo
-* Run librarian-puppet update
-* vagrant up
+* Clone this repo into your desired folder
+* Run "librarian-puppet update"
+* Run "vagrant up"
