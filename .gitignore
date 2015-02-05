@@ -4,3 +4,4 @@ modules/
 modules
 .librarian
 .idea
+.DS_Store

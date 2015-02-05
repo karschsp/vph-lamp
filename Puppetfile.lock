@@ -13,6 +13,7 @@ FORGE
       puppetlabs-stdlib (>= 2.2.1)
     puppetlabs-concat (1.1.2)
       puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs-firewall (1.4.0)
     puppetlabs-inifile (1.2.0)
     puppetlabs-mysql (3.1.0)
       nanliu-staging (~> 1.0)
@@ -26,6 +27,7 @@ FORGE
 
 DEPENDENCIES
   puppetlabs-apache (>= 0)
+  puppetlabs-firewall (>= 0)
   puppetlabs-mysql (>= 0)
   puppetlabs-stdlib (>= 0)
   zivtech-drush (>= 0)

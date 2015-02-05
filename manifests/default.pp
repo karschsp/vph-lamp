@@ -1,5 +1,6 @@
 include apache
 include drush
+include firewall
 
 package { "lynx":
   ensure => present
