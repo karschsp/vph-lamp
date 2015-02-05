@@ -10,5 +10,8 @@ mod 'puppetlabs-gcc'
 mod 'puppetlabs-firewall'
 mod 'puppetlabs-mongodb'
 mod 'puppetlabs-nodejs'
+mod 'puppet-redis',
+  :git => 'git@github.com:thomasvandoren/puppet-redis.git',
+  :ref => '915d85a'
 mod 'zivtech-drush'
 

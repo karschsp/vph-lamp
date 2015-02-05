@@ -4,6 +4,7 @@ include firewall
 include gcc
 include mongodb
 include nodejs
+include redis
 
 package { "lynx":
   ensure => present
