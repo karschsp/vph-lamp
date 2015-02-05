@@ -13,12 +13,15 @@ Vagrant.configure(2) do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "ubuntu/trusty64"
+  # config.vm.box = "precise-base-vbox-4.2.4"
+  # config.vm.box_url = "http://fattony.zivtech.com/files/precise-vbox-4.2.4.box"  
   config.ssh.forward_agent = true
   config.vm.provider :virtualbox do |vb|
     # Use VBoxManage to customize the VM. For example to change memory:
     vb.customize ["modifyvm", :id, "--memory", "1024"]
   end  
   config.vm.provision "puppet" do |puppet|
+    puppet.options = "--verbose --debug"  
     puppet.hiera_config_path = "hiera.yaml"
     puppet.module_path = "modules"
   end  
