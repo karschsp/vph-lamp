@@ -6,6 +6,7 @@ forge "https://forgeapi.puppetlabs.com"
 mod 'puppetlabs-stdlib'
 mod 'puppetlabs-apache'
 mod 'puppetlabs-mysql'
+mod 'puppetlabs-gcc'
 mod 'puppetlabs-firewall'
 mod 'zivtech-drush'
 
