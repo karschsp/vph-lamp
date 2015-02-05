@@ -1,0 +1,19 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    nanliu-staging (1.0.3)
+    puppetlabs-apache (1.2.0)
+      puppetlabs-concat (>= 1.1.1)
+      puppetlabs-stdlib (>= 2.4.0)
+    puppetlabs-concat (1.1.2)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs-mysql (3.1.0)
+      nanliu-staging (~> 1.0)
+      puppetlabs-stdlib (>= 3.2.0)
+    puppetlabs-stdlib (4.5.1)
+
+DEPENDENCIES
+  puppetlabs-apache (>= 0)
+  puppetlabs-mysql (>= 0)
+  puppetlabs-stdlib (>= 0)
+
