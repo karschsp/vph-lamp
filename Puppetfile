@@ -9,5 +9,6 @@ mod 'puppetlabs-mysql'
 mod 'puppetlabs-gcc'
 mod 'puppetlabs-firewall'
 mod 'puppetlabs-mongodb'
+mod 'puppetlabs-nodejs'
 mod 'zivtech-drush'
 

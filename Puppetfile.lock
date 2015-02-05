@@ -22,6 +22,9 @@ FORGE
     puppetlabs-mysql (3.1.0)
       nanliu-staging (~> 1.0)
       puppetlabs-stdlib (>= 3.2.0)
+    puppetlabs-nodejs (0.7.1)
+      puppetlabs-apt (>= 0.0.3)
+      puppetlabs-stdlib (>= 2.0.0)
     puppetlabs-stdlib (4.5.1)
     puppetlabs-vcsrepo (1.2.0)
     zivtech-drush (0.0.2)
@@ -35,6 +38,7 @@ DEPENDENCIES
   puppetlabs-gcc (>= 0)
   puppetlabs-mongodb (>= 0)
   puppetlabs-mysql (>= 0)
+  puppetlabs-nodejs (>= 0)
   puppetlabs-stdlib (>= 0)
   zivtech-drush (>= 0)
 

@@ -3,6 +3,7 @@ include drush
 include firewall
 include gcc
 include mongodb
+include nodejs
 
 package { "lynx":
   ensure => present
