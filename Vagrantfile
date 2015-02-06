@@ -21,7 +21,7 @@ Vagrant.configure(2) do |config|
     vb.customize ["modifyvm", :id, "--memory", "1024"]
   end  
   config.vm.provision "puppet" do |puppet|
-    puppet.options = "--verbose --debug"  
+    # puppet.options = "--verbose --debug"
     puppet.hiera_config_path = "hiera.yaml"
     puppet.module_path = "modules"
   end  
@@ -80,4 +80,8 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL
+  config.vm.define :george do |george|
+    george.vm.network :private_network, ip: "33.33.33.220"
+    george.vm.hostname = "george.local"
+  end
 end
