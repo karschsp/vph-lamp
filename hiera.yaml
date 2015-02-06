@@ -3,6 +3,7 @@
   - yaml
 
 :hierarchy:
+  - "john"
   - "george"
   - "common"
 
