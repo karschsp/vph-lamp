@@ -5,6 +5,8 @@
 :hierarchy:
   - "john"
   - "george"
+  - "paul"
+  - "ringo"
   - "common"
 
 :yaml:

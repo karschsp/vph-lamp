@@ -88,5 +88,12 @@ Vagrant.configure(2) do |config|
     john.vm.network :private_network, ip: "33.33.33.221"
     john.vm.hostname = "john.local"
   end
-
+  config.vm.define :paul do |paul|
+    paul.vm.network :private_network, ip: "33.33.33.222"
+    paul.vm.hostname = "paul.local"
+  end
+  config.vm.define :ringo do |ringo|
+    ringo.vm.network :private_network, ip: "33.33.33.223"
+    ringo.vm.hostname = "ringo.local"
+  end
 end
