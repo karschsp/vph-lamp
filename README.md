@@ -11,5 +11,5 @@ Stands up a Linux Apache MySQL PHP environment using Vagrant, Puppet and Hiera.
 ## Installation
 
 * Clone this repo into your desired folder
-* Run "librarian-puppet update"
+* Run "librarian-puppet install"
 * Run "vagrant up"
