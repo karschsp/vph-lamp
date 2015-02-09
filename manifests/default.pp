@@ -14,6 +14,6 @@ notify { 'my_message':
   message => hiera('my_message'),
 }
 
-class { '::mysql::server':
-  root_password    => 'strongpassword',
-}
+#class { '::mysql::server':
+#  root_password    => 'strongpassword',
+#}
